@@ -9,6 +9,7 @@ import {
 import './index.css'
 import Root from './components/Root/Root';
 import Home from './components/Home/Home';
+import Listed from './components/Listed/Listed';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
        path:'/',
        element:<Home></Home>,
+      },
+      {
+        path:'/listed-books',
+        element:<Listed></Listed>
       }
     ]
   },

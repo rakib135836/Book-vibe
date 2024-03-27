@@ -1,0 +1,81 @@
+[
+    {
+        "book_id": 1,
+        "bookName": "The-Great-Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "https://i.ibb.co/fdfVpy6/The-Great-Gatsby.jpg",
+        "review": "The Great Gatsby is a timeless classic that delves deep into the intricacies of the American Dream and its illusions. Set in the prosperous Jazz Age of the 1920s, the novel follows the enigmatic Jay Gatsby and his pursuit of wealth and love, as narrated by Nick Carraway. Fitzgerald's prose is rich with symbolism and social commentary, painting a vivid portrait of the Roaring Twenties. Through its characters and their relationships, the novel explores themes of love, wealth, and the decay of moral values. With its tragic yet compelling storyline, The Great Gatsby remains a poignant critique of the American Dream, showcasing the emptiness that lies beneath the surface of material success.",
+        "totalPages": 180,
+        "rating": 4.5,
+        "category": "Fiction",
+        "tags": ["Classic", "Romance"],
+        "publisher": "Scribner",
+        "yearOfPublishing": 1925
+    },
+    {
+        "book_id": 2,
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "https://i.ibb.co/DG2JWZS/1984.jpg",
+        "review": "1984 is a chilling portrayal of a dystopian society ruled by totalitarianism. George Orwell's prophetic novel presents a grim vision of the future where individualism is suppressed, and state control is absolute. Set in the oppressive regime of Oceania, the story follows Winston Smith, a low-ranking member of the ruling Party who dares to defy its tyranny. Through Winston's journey of rebellion and disillusionment, Orwell explores themes of surveillance, propaganda, and the nature of truth. 1984 serves as a stark warning against the dangers of authoritarianism and the erosion of freedom. Its haunting narrative continues to resonate with readers, reminding us of the importance of safeguarding democracy and human rights.",
+        "totalPages": 328,
+        "rating": 4.7,
+        "category": "Science Fiction",
+        "tags": ["Dystopian", "Political"],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "book_id": 3,
+        "bookName": "To-Kill-a-Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://i.ibb.co/qmmf5pr/To-Kill-a-Mockingbird.jpg",
+        "review": "To Kill a Mockingbird is a poignant narrative that confronts the harsh realities of racial injustice and moral growth in the Deep South. Harper Lee's Pulitzer Prize-winning novel is told through the eyes of Scout Finch, a young girl growing up in the racially divided town of Maycomb, Alabama. As Scout and her brother Jem witness their father, Atticus Finch, defend a black man falsely accused of rape, they grapple with issues of prejudice, empathy, and the search for justice. Lee's masterful storytelling captures the complexities of human nature and the enduring power of compassion. To Kill a Mockingbird stands as a timeless testament to the importance of empathy and the fight against bigotry.",
+        "totalPages": 281,
+        "rating": 4.8,
+        "category": "Fiction",
+        "tags": ["Classic", "Social Justice"],
+        "publisher": "J. B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "book_id": 4,
+        "bookName": "The-Catcher-in-the-Rye",
+        "author": "J.D. Salinger",
+        "image": "https://i.ibb.co/v18PMxN/The-Catcher-in-the-Rye.jpg",
+        "review": "The Catcher in the Rye is an introspective journey that captures the essence of adolescence and societal disillusionment. J.D. Salinger's iconic novel follows the disillusioned teenager Holden Caulfield as he navigates the complexities of growing up in 1950s America. Through Holden's cynical yet vulnerable voice, Salinger explores themes of identity, alienation, and the search for authenticity. As Holden embarks on a three-day escapade through New York City, he encounters various characters and confronts the phoniness of the adult world. The novel's candid portrayal of teenage angst and rebellion has made it a timeless coming-of-age classic, resonating with generations of readers who grapple with the challenges of adolescence and the quest for meaning.",
+        "totalPages": 277,
+        "rating": 4.4,
+        "category": "Fiction",
+        "tags": ["Coming of Age", "Existentialism"],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "book_id": 5,
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "https://i.ibb.co/mSgz7Ws/The-Hobbit.jpg",
+        "review": "The Hobbit is a delightful adventure that transports readers to the enchanting world of Middle-earth. J.R.R. Tolkien's beloved tale follows the unassuming hobbit Bilbo Baggins as he embarks on a quest to reclaim the treasure guarded by the fearsome dragon Smaug. Joined by a band of dwarves and the wizard Gandalf, Bilbo traverses through perilous lands and encounters magical creatures, including elves, trolls, and goblins. Along the way, he discovers courage, friendship, and the true meaning of heroism. Tolkien's rich imagination and intricate world-building make The Hobbit a timeless fantasy classic, captivating readers of all ages with its whimsical charm and epic storytelling.",
+        "totalPages": 310,
+        "rating": 4.6,
+        "category": "Fantasy",
+        "tags": ["Adventure", "Magic"],
+        "publisher": "Allen & Unwin",
+        "yearOfPublishing": 1937
+    },
+    {
+        "book_id": 6,
+        "bookName": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "image": "https://i.ibb.co/BCvzTn5/The-Lord-of-the-Rings.jpg",
+        "review": "The Lord of the Rings is an epic fantasy saga that transports readers to a world of adventure, heroism, and rich mythology. J.R.R. Tolkien's masterwork follows the perilous journey of Frodo Baggins, a humble hobbit tasked with destroying the One Ring and thwarting the dark lord Sauron's bid for domination. Joined by a fellowship of diverse characters, including humans, elves, dwarves, and wizards, Frodo embarks on a quest fraught with danger and sacrifice. As they traverse through Middle-earth's diverse landscapes, they encounter epic battles, ancient prophecies, and the enduring power of friendship. Tolkien's intricate world-building and lyrical prose create a captivating narrative that has enthralled readers for generations, making The Lord of the Rings a cornerstone of modern fantasy literature.",
+        "totalPages": 1178,
+        "rating": 4.9,
+        "category": "Fantasy",
+        "tags": ["Adventure", "Magic"],
+        "publisher": "Allen & Unwin",
+        "yearOfPublishing": 1954
+    }
+   
+]
