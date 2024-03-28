@@ -16,7 +16,7 @@ const SingleBook = ({ book }) => {
                 <div className=' flex-grow'>
                     <img src={image} alt="" />
 
-                    <div className="flex flex-row gap-5">
+                    <div className="flex flex-col lg:flex-row gap-5">
                         <p className="text-green-500 text-base font-semibold">{tags[0]}</p>
                         <p className="text-green-500 text-base font-semibold">{tags[1]}</p>
                     </div>

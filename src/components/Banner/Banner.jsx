@@ -3,22 +3,25 @@ import image from '../../assets/banner/banner.jpg';
 
 const Banner = () => {
     return (
-        <div className='my-8'>
-            <div className="hero rounded-xl bg-base-200 px-28">
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src={image} className="max-w-sm rounded-lg shadow-2xl" />
-                    <div>
-                        <h1 className="text-5xl font-bold">Books to freshen up your bookshelf</h1>
+        <div className=' border border-solid border-gray-700 rounded-xl my-9 p-4 bg-gray-300 '>
 
-                        
-                        
-                       
-                       
-                       <NavLink className="btn bg-green-500 capitalize my-8" to={'/listed-books'}>Listed Books</NavLink>
-                       
-                    </div>
+            <div className=" flex flex-col  lg:flex-row-reverse items-center justify-center gap-4">
+                <div>
+                    <img src={image} className="max-w-sm rounded-lg shadow-2xl" />
+                </div>
+                <div>
+                    <h1 className="text-5xl font-bold">Books to freshen up <br />
+                    your bookshelf</h1>
+
+
+
+
+
+                    <NavLink className="btn bg-green-500 capitalize my-8" to={'/listed-books'}>Listed Books</NavLink>
+
                 </div>
             </div>
+
         </div>
     );
 };
@@ -30,4 +33,3 @@ export default Banner;
 
 
 
-     

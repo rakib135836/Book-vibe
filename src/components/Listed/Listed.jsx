@@ -32,7 +32,7 @@ const Listed = () => {
     }, [books]);
 
     return (
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 my-8">
             <div>
                 <button onClick={() => handleSortBy('rating')}>Sort by Rating</button>
                 <button onClick={() => handleSortBy('totalPages')}>Sort by Total Pages</button>

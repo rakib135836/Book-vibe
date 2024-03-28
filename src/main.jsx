@@ -11,10 +11,11 @@ import Root from './components/Root/Root';
 import Home from './components/Home/Home';
 import Listed from './components/Listed/Listed';
 import BookDetails from './components/BookDetails/BookDetails';
-import Chart from './components/Chart/Chart';
+
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import MustRead from './components/MustRead/MustRead';
 import Benefits from './components/Benefits/Benefits';
+import FinalChart from './components/FinalChart/FinalChart';
 
 const router = createBrowserRouter([
   {
@@ -38,7 +39,7 @@ const router = createBrowserRouter([
       },
       {
         path:'/pages-to-read',
-        element:<Chart></Chart>
+        element:<FinalChart></FinalChart>
       },
       {
         path:'/must-read',
