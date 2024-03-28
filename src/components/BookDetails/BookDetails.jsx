@@ -5,6 +5,7 @@ import  { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
+import { addedBooks } from "../../utility/LocalStorage";
 // ----------------for toast--
 
 
@@ -19,8 +20,12 @@ const BookDetails = () => {
 
 // ---------------------------------
 
+addedBooks(book_id)
+
 const [clickCount1, setClickCount1] = useState(0);
 const [clickCount2, setClickCount2] = useState(0);
+
+
 
 const notify = (buttonNumber) => {
   if (buttonNumber === 1) {
