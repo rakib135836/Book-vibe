@@ -15,7 +15,6 @@
 
 - **Community Engagement:** Join a vibrant community of users, participate in discussions, share content, and connect with like-minded individuals.
 
-- **Search Functionality:** Quickly find what you're looking for with our powerful search functionality, which offers filters, sorting options, and instant results.
 
 - **Accessibility:** We prioritize accessibility standards, ensuring that our website is usable and enjoyable for all users, including those with disabilities.
 
