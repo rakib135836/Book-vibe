@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import image from '../../assets/banner/banner.jpg';
 
 const Banner = () => {
@@ -11,7 +12,10 @@ const Banner = () => {
 
                         
                         
-                        <button  className="btn bg-green-500 capitalize my-8">view the list</button>
+                       
+                       
+                       <NavLink className="btn bg-green-500 capitalize my-8" to={'/listed-books'}>Listed Books</NavLink>
+                       
                     </div>
                 </div>
             </div>
