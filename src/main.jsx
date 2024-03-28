@@ -11,11 +11,14 @@ import Root from './components/Root/Root';
 import Home from './components/Home/Home';
 import Listed from './components/Listed/Listed';
 import BookDetails from './components/BookDetails/BookDetails';
+import Chart from './components/Chart/Chart';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
@@ -32,7 +35,8 @@ const router = createBrowserRouter([
         loader:()=>fetch('../public/Books.json')
       },
       {
-        path:'',
+        path:'/pages-to-read',
+        element:<Chart></Chart>
       }
     ]
   },

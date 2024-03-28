@@ -20,8 +20,7 @@ const Listed = () => {
             const sortedBooks = [...displayPost].sort((a, b) => b.yearOfPublishing - a.yearOfPublishing);
             setDisplayPost(sortedBooks);
         }
-
-    }
+    };
 
     useEffect(() => {
         const storedBookIds = getStoredBooks();
@@ -33,28 +32,22 @@ const Listed = () => {
     }, [books]);
 
     return (
-
-        <div>
-                <h1 className="font-bold text-2xl text-center">Books</h1>
-
-            <details className="dropdown ">
-                <summary className="bg-green-300 m-1 btn">Short By</summary>
-                <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-                    <li><a onClick={() => handleSortBy('rating')}>Rating</a></li>
-                    <li><a onClick={() => handleSortBy('totalPages')}>Number of pages</a></li>
-                    <li><a onClick={() => handleSortBy('publishYear')}>publish Year</a></li>
-                </ul>
-            </details>
-
-            <div className="flex flex-col gap-3">
-                {displayPost.map(book => (
-                    <ListedBook key={book.book_id} book={book} />
-                ))}
+        <div className="flex flex-col gap-3">
+            <div>
+                <button onClick={() => handleSortBy('rating')}>Sort by Rating</button>
+                <button onClick={() => handleSortBy('totalPages')}>Sort by Total Pages</button>
+                <button onClick={() => handleSortBy('publishYear')}>Sort by Publish Year</button>
             </div>
+            {displayPost.map(book => (
+                <ListedBook key={book.book_id} book={book} />
+            ))}
         </div>
-
     );
 };
 
 export default Listed;
+
+
+
+
 

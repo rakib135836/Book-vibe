@@ -8,6 +8,8 @@ const NavBar = () => {
         <li><NavLink  to={'/'}>Home</NavLink></li>
         <li><NavLink to={'/listed-books'}>Listed Books</NavLink></li>
         <li><NavLink to={'/pages-to-read'}>Pages to read</NavLink></li>
+        <li><NavLink to={'/must-read'}>Pages to read</NavLink></li>
+        <li><NavLink to={'/benefits'}>Pages to read</NavLink></li>
 
     </>
 
