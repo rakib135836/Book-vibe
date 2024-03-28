@@ -11,6 +11,10 @@ import { addedBooks } from "../../utility/LocalStorage";
 
 
 const BookDetails = () => {
+
+  
+
+
   const books = useLoaderData();
   const { book_id } = useParams();
   const idInt = parseInt(book_id);
@@ -20,13 +24,13 @@ const BookDetails = () => {
 
 // ---------------------------------
 
-addedBooks(book_id)
+
 
 const [clickCount1, setClickCount1] = useState(0);
 const [clickCount2, setClickCount2] = useState(0);
 
 
-
+addedBooks(idInt)
 const notify = (buttonNumber) => {
   if (buttonNumber === 1) {
     if (clickCount1 % 2 === 0) {
@@ -44,6 +48,7 @@ const notify = (buttonNumber) => {
     setClickCount2(prevCount => prevCount + 1);
   }
 };
+
 
 // ---------------------------------
 
@@ -93,6 +98,7 @@ const notify = (buttonNumber) => {
             <button onClick={() => notify(1)} className="btn btn-primary">read</button>
             <button onClick={() => notify(2)} className="btn btn-primary">wish list</button>
             <ToastContainer />
+            
           </div>
         </div>
       </div>
