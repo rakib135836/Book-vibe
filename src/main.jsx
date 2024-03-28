@@ -13,6 +13,8 @@ import Listed from './components/Listed/Listed';
 import BookDetails from './components/BookDetails/BookDetails';
 import Chart from './components/Chart/Chart';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import MustRead from './components/MustRead/MustRead';
+import Benefits from './components/Benefits/Benefits';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +39,14 @@ const router = createBrowserRouter([
       {
         path:'/pages-to-read',
         element:<Chart></Chart>
+      },
+      {
+        path:'/must-read',
+        element:<MustRead></MustRead>
+      },
+      {
+        path:'//benefits',
+        element:<Benefits></Benefits>
       }
     ]
   },
