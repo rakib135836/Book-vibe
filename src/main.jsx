@@ -39,7 +39,8 @@ const router = createBrowserRouter([
       },
       {
         path:'/pages-to-read',
-        element:<FinalChart></FinalChart>
+        element:<FinalChart></FinalChart>,
+        loader:()=>fetch('../public/Books.json')
       },
       {
         path:'/must-read',
