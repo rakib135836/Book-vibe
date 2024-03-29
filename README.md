@@ -2,7 +2,7 @@
 # Book vibe
 
 
-[Live Site](https://6605acdbe50ac40b6d0f0700--calm-syrniki-000514.netlify.app/)
+[Live Site](https://6606907db18ed8d0ce608ce4--stirring-cobbler-e2a734.netlify.app/)
 ## Features and Characteristics
 
 - **User-friendly Interface:** Our website offers an intuitive and easy-to-navigate interface, ensuring a seamless user experience.
@@ -24,4 +24,4 @@
 
 ## Getting Started
 
-To get started with our website, simply visit the [live site](https://www.your-website-url.com) and create an account to unlock all features and functionalities. Happy browsing!
+To get started with our website, simply visit the [live site](https://6606907db18ed8d0ce608ce4--stirring-cobbler-e2a734.netlify.app/) and create an account to unlock all features and functionalities. Happy browsing!

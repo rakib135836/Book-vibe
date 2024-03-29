@@ -1,7 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 
 // ----------------for toast--
-import  { useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
@@ -18,8 +18,15 @@ const BookDetails = () => {
   const books = useLoaderData();
   const { book_id } = useParams();
   const idInt = parseInt(book_id);
-  const book = books.find(book => book.book_id === idInt)
+ 
+
+  const [book,setBook]=useState(null)
+  useEffect(()=>{
+    const book1 = books.find(book => book.book_id === idInt)
+    setBook(book1)
+  },[book_id])
   console.log(book)
+
  
 
 // ---------------------------------
@@ -31,6 +38,7 @@ const [clickCount2, setClickCount2] = useState(0);
 
 
 addedBooks(idInt)
+
 const notify = (buttonNumber) => {
   if (buttonNumber === 1) {
     if (clickCount1 % 2 === 0) {
@@ -57,37 +65,37 @@ const notify = (buttonNumber) => {
     <div>
 
       <div className="card  card-side bg-base-100 shadow-xl">
-        <figure><img src={book.image} alt="Movie" /></figure>
+        <figure><img src={book?.image} alt="Movie" /></figure>
         <div className="card-body">
 
-          <h2 className="card-title">{book.bookName}</h2>
-          <p>By : {book.author}</p> <br /> <hr />
-          <p className="font-bold">{book.category}</p>
+          <h2 className="card-title">{book?.bookName}</h2>
+          <p>By : {book?.author}</p> <br /> <hr />
+          <p className="font-bold">{book?.category}</p>
 
-          <span  className="font-bold"> review</span> <p>{book.review}</p>
+          <span  className="font-bold"> review</span> <p>{book?.review}</p>
 
           <div className="flex flex-row ">
                <p className="font-bold">Tags</p>
-               <p className="text-green-600">#{book.tags[0]}</p>
-               <p className="text-green-600">#{book.tags[1]}</p>
+               <p className="text-green-600">#{book?.tags[0]}</p>
+               <p className="text-green-600">#{book?.tags[1]}</p>
           </div><br />
 
           <table>
             <tr>
               <td>Number of pages:</td>
-              <td className="font-bold">{book.totalPages} </td>
+              <td className="font-bold">{book?.totalPages} </td>
             </tr>
             <tr>
               <td>Publisher:</td>
-              <td className="font-bold">{book.publisher} </td>
+              <td className="font-bold">{book?.publisher} </td>
             </tr>
             <tr>
               <td>Year of publish:</td>
-              <td className="font-bold">{book.yearOfPublishing}</td>
+              <td className="font-bold">{book?.yearOfPublishing}</td>
             </tr>
             <tr>
               <td>Rating:</td>
-              <td className="font-bold">{book.rating} </td>
+              <td className="font-bold">{book?.rating} </td>
             </tr>
           </table>
 
